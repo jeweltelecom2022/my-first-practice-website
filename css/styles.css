@@ -6,3 +6,17 @@ ol [type="i"] >li{
 footer{
     text-align: center;
 }
+#coxs{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 500px;
+    width: 900px;
+}
+h3{
+    text-align: center;
+}
+.ulli{
+    text-align: center;
+    font: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
