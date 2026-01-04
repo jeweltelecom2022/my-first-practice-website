@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 ol [type="i"] >li{
     color:aqua;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -7,8 +11,6 @@ footer{
     text-align: center;
 }
 #coxs{
-    margin-left: 15%;
-    margin-right: 15%;
     height: 500px;
     width: 900px;
 }
@@ -19,4 +21,90 @@ h3{
     text-align: center;
     font: 600;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav{
+    border-bottom: 2px solid gray;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+nav li{
+    text-align: center;
+    margin: 15px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+}
+figure{
+text-align: center;
+margin: 20px 0px;
+}
+figure img{
+    height: 300px;
+
+}
+section iframe{
+    margin-top: 30px;
+
+}
+section audio{
+    align-content: center;
+    margin-top: 20px;
+}
+section video{
+    align-content: center;
+    margin-top: 20px;
+}
+.form{
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid gray;
+    padding: 10px 40px;
+    background-color: aliceblue;
+}
+.form input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.basic{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.pithainfo{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.vortaselection{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.extrainfo{
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+.submit{
+    padding:5px;
+    border-radius: 15%;
+    background-color: aqua;
+    color: black;
+    font-weight: 500 ;
+    margin-right: 10px;
+}
+.clear{
+    padding:5px;
+    border-radius: 15%;
+    background-color: red;
+    color: white;
+    font-weight: 500 ;
+    margin-right: 10px;
 }
