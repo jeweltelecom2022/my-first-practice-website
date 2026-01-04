@@ -64,9 +64,11 @@ section video{
     align-content: center;
     margin-top: 20px;
 }
+section form{
+    justify-content: center;
+    margin: 20px 50px;
+}
 .form{
-    margin-left: 25%;
-    margin-right: 25%;
     border: 1px solid gray;
     padding: 10px 40px;
     background-color: aliceblue;
