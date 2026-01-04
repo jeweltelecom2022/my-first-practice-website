@@ -108,3 +108,49 @@ section video{
     font-weight: 500 ;
     margin-right: 10px;
 }
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+thead th{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.container{
+    display: flex;
+
+}
+.container div{
+    border: 2px solid black;
+    height: 100px;
+    font-size: 3em;
+    width: 250px;
+}
+.box{
+    height: 50px;
+    width: 20px;
+    border: 1px solid black;
+
+}
+.box-container{
+    display: flex;
+    gap: 50px;
+}
+.user{
+    padding: 25px;
+    border: 1px solid aqua;
+}
+.box{
+    padding: 25px;
+    border: 1px solid aqua;
+}
+.card-user-container{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
