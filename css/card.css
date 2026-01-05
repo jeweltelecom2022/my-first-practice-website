@@ -1,0 +1,21 @@
+*{
+    width: 1140px;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+.card-container{
+    display: flex;
+}
+.card-container h2{
+    text-align: center;
+}
+.card-container p{
+    text-align: center;
+}
+.card-box{
+    width: 300px;
+}
+.card-box img{
+    width: 100%;
+    border-radius: 15px;
+}
