@@ -1,10 +1,9 @@
 body{
-    max-width: 1270px;
+    max-width: 1140px;
     background-color: bisque;
     margin: 0px auto;
 }
 .hero-container{
-    width: 1140px;
     background-color: aqua;
     display: flex;
     align-items: center;
@@ -34,4 +33,46 @@ body{
     cursor: pointer;
     color:rgb(0, 0, 0);
     font-size: 0.8em;
+}
+.card-section{
+    text-align: center;
+}
+
+.card-section h2,p{
+    margin: 20px 0px;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border: 1.5px solid gray;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px;
+    text-align: left;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3{
+    text-align: left;
+    margin: 5px 0px;
+}
+.card button{
+    margin: 10px 0px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.card:hover{
+    background-color: burlywood;
 }
